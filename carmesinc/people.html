@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carmes Inc</title>
+    <link rel="stylesheet" href="/static/css/mainsite.css">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="/static/js/components.js"></script>
+  </head>
+  <body>
+    <div id="logo"></div>
+    <h1>Who's Who in Carmes Inc</h1>
+    <div>
+      <h2>Carmes</h2>
+      <p>CEO and founder of Carmes Inc. Invented Pig Soop.</p>
+      <img class="right" src="/static/carmesinc/img/carmes.png" alt="Carmes">
+      <br><br><br><br>
+    </div>
+    <div>
+      <h2>The Soop Bros</h2>
+      <p>They advertise Pig Soop and Tofu Soop.</p>
+      <img class="left" src="/static/carmesinc/img/ads/tofu.png" alt="One of the Soop bros">
+      <img class="right" src="/static/carmesinc/img/ads/pigsoop.png" alt="One of the Soop bros">
+      <br><br><br><br>
+    </div>
+    <div>
+      <h2>Precure Selene</h2>
+      <p>CO-CEO of Anime Cosmetics Inc, a subsidary. Only speaks Japanese.</p>
+      <img class="right" src="/static/carmesinc/img/ads/toothpaste.png" alt="PreCure Selene in a toothpaste ad">
+      <br><br><br><br>
+    </div>
+    <hr>
+    <div id="disclaimer"></div>
+    <script type="text/babel">
+    ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
+    ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
+    </script>
+  </body>
+</html>

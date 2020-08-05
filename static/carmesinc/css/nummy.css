@@ -1,0 +1,20 @@
+body {
+  background-color: lightblue;
+}
+
+hr {
+  background-color: blue;
+}
+
+.ac-products-name td {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+td, tr, table {
+  border: 1px solid blue;
+}
+
+table {
+  text-align: center;
+}

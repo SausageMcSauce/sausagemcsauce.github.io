@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nummy Foods</title>
+    <link rel="stylesheet" href="/static/css/mainsite.css">
+    <link rel="stylesheet" href="/static/carmesinc/css/nummy.css">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="/static/js/components.js"></script>
+  </head>
+  <body>
+    <div id="logo"></div>
+    <h1>Welcome to Nummy Foods!</h1>
+    <p>Nummy Foods makes quality stuff for Dreem Lend!</p>
+    <h2>Products</h2>
+    <table>
+      <tr class="ac-products-name">
+        <td><a href="pigsoop.html">Pig Soop</a></td>
+        <td><a href="tofusoop.html">Tofu Soop</a></td>
+        <td><a href="emojibars.html">Emoji Bars</a> (over 3,000 flavours)!</td>
+      </tr>
+       <td><img src="/static/carmesinc/img/nummyfoods/Pig Soop.png" alt="Pig Soop" width="250px"></td>
+       <td><img src="/static/carmesinc/img/ads/tofu.png" alt="Tofu Soop" height="250px"></td>
+       <td><img src="/static/carmesinc/img/ads/emojibar.png" alt="Emoji Bars" height="250px"></td>
+      </tr>
+    </table>
+    <hr>
+    <div id="disclaimer"></div>
+    <script type="text/babel">
+    ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
+    ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
+    </script>
+  </body>
+</html>

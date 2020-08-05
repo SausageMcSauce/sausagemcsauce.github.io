@@ -1,0 +1,20 @@
+body {
+  background-color: pink;
+}
+
+hr {
+  background-color: magenta;
+}
+
+.ac-products-name td {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+td, tr, table {
+  border: 1px solid magenta;
+}
+
+table {
+  text-align: center;
+}

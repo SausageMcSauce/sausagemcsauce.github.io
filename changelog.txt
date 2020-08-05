@@ -1,0 +1,53 @@
+5th August 2020
+---------------
+Ported to GitHub
+
+21 July 2020
+------------
+Added links to Nummy Foods products in Nummy Foods page
+Created Tofu Soop page.
+
+19 July 2020
+-----------
+Edited this for the first time in a month
+
+13 June 2020
+-----------
+
+Created page for Pig Soop
+Removed duplicate note about PreCure Selene not being created by me in Who's Who page
+
+12 June 2020
+------------
+
+Created page for Shampoo
+Created page for Emoji Bars
+
+10 June 2020
+------------
+
+Added a section on homepage for bug reporting
+Created Nummy Foods page
+
+9 June 2020
+-----------
+
+Broke Carmes Inc's homepage and fixed it
+Made a component to mark pages that are under construction
+Made the page for Toothpaste
+
+8 June 2020
+-----------
+Replaced images on Anime Cosmetics page with images of "products"
+Converted disclaimer and Carmes Inc logo to React components
+Added history page describing Carmes and Carmes Inc
+Added links back to homepage for Carmes Inc and history page 
+Added images of Carmes Inc people
+
+7 June 2020
+-----------
+
+Created site
+Started Carmes Inc section
+Started page for Anime Cosmetics
+Added image of Batman Comic

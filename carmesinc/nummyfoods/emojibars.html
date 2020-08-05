@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nummy Foods</title>
+    <link rel="stylesheet" href="/static/css/mainsite.css">
+    <link rel="stylesheet" href="/static/carmesinc/css/nummy.css">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="/static/js/components.js"></script>
+  </head>
+  <body>
+    <div id="logo"></div>
+    <h1>Emoji Bars</h1>
+    <p>An emoji snack made with only the freshest emoji! Over 3 thousand flavours available!</p>
+    <h2>This month's 3 most popular flavours</h2>
+    <ul>
+      <li>Pleading Face</li>
+      <li>Red Heart</li>
+      <li>Face with Tears of Joy</l1>
+    </ul>
+    <img src="/static/carmesinc/img/ads/emojibar.png" height="200px">
+    <hr>
+    <div id="disclaimer"></div>
+    <script type="text/babel">
+    ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
+    ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
+    </script>
+  </body>
+</html>
