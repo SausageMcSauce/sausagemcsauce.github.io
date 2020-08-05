@@ -1,6 +1,8 @@
 5th August 2020
 ---------------
 Ported to GitHub
+Started Comics page and uploaded remaining comics
+Added 404 page
 
 21 July 2020
 ------------
