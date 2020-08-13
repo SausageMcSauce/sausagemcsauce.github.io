@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Carmes Inc</title>
+    <title>Page Template</title>
     <link rel="stylesheet" href="/static/css/mainsite.css">
     <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
@@ -9,25 +9,16 @@
     <script type="text/babel" src="/static/js/components.js"></script>
   </head>
   <body>
-    <a href="/">Back to homepage</a>
     <div id="logo"></div>
-    <p>Welcome to the Carmes Inc website!</p>
-    <h2>Subsidaries</h2>
-    <ul>
-      <li><a href="animecosmetics/">Anime Cosmetics</a></li>
-      <li><a href="nummyfoods/">Nummy Foods</a></li>
-      <li>Red Computer Labs</li>
-      <li>Dreemtronix</li>
-      <li>Carmes' Ad Design</li>
-      <li><a href="webdandh/">Carmes' Web Design</a></li>
-      <li>And more!</li>
-    </ul>
-    <p>Find out who's who in Carmes Inc <a href="people.html">here!</a></p>
+    <p>Carmes' Web Design is the entity that designs the whole Carmes Inc Website, stored on a server manufactured by some earth company named 'GitHub Servers and Coding Things Inc.'</p>
+    <img src="/static/carmesinc/img/ads/webdandh.png" alt="Ad for Carmes' Web Design" height="500px">
+    <p>Note: The CText Service is discontinued.</p>
     <hr>
     <div id="disclaimer"></div>
     <script type="text/babel">
     ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
     ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
     </script>
+
   </body>
 </html>
