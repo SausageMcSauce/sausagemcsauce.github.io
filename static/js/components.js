@@ -19,3 +19,7 @@ function UnderConstruction() {
     </div>
   )
 }
+
+function DreemtronixLogo() {
+  return <a href="/carmesinc/dreemtronix"><img src="/static/carmesinc/img/dreemtronix/dreemtronix.png" alt="Carmes Inc logo" /></a>;
+}
