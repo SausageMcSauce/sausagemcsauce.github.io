@@ -1,0 +1,23 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+header, footer {
+  background-color: orange;
+  padding: 5px;
+}
+
+ul#header li {
+  display: inline;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+
+section, footer, #disclaimer {
+  text-align: center;
+}
+
+li.right {
+  float: right;
+}
