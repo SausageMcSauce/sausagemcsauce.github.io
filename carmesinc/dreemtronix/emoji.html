@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nummy Foods</title>
+    <title>Dreemtronix</title>
     <link rel="stylesheet" href="/static/css/mainsite.css">
-    <link rel="stylesheet" href="/static/carmesinc/css/nummy.css">
+    <link rel="stylesheet" href="/static/carmesinc/css/dreemtronix.css">
     <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script type="text/babel" src="/static/js/components.js"></script>
   </head>
   <body>
-    <div id="logo"></div>
-    <h1>Emoji Bars</h1>
-    <p>An emoji snack made with only the freshest emoji! Over 3 thousand flavours available!</p>
-    <p><small>Only Unicode emoji flavours are avaiable, there are no flavours for Dreemtronix emojis, so no, you cannot get a Carmes flavour.</small></p>
-    <h2>Current most popular flavours</h2>
-    <ul>
-      <li>Pleading Face</li>
-      <li>Red Heart</li>
-      <li>Sparkles</l1>
-    </ul>
-    <img src="/static/carmesinc/img/nummyfoods/Emoji Bars.png" height="200px">
+    <div id="dreemtronix"></div>
+    <h2>Emoji</h2>
+    <p>With other 40,000 emojis, Dreemtronix's emoji extends the Unicode Emojis. Includes a Carmes, Pig Soop and PreCure Selene emoji!</p>
+    <p>The nonexistent link to get it is coming soon</p>
+    <p>Note: These emojis are not flavours of <a href="/carmesinc/nummyfoods/emojibars.html">Emoji Bars.</a></p>
     <hr>
     <div id="disclaimer"></div>
+    <div id="logo"></div>
     <script type="text/babel">
     ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
     ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
+    ReactDOM.render(<DreemtronixLogo />, document.getElementById("dreemtronix"));
     </script>
   </body>
 </html>
