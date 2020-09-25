@@ -23,3 +23,13 @@ function UnderConstruction() {
 function DreemtronixLogo() {
   return <a href="/carmesinc/dreemtronix"><img src="/static/carmesinc/img/dreemtronix/dreemtronix.png" alt="Carmes Inc logo" /></a>;
 }
+
+function NewsNav() {
+  return <nav class="newsnav">
+    <ul>
+      <li><strong>Carmes News: </strong></li>
+      <li><a href="/carmesinc/news">Home</a></li>
+      <li><a href="articles.html">Articles</a></li>
+    </ul>
+  </nav>;
+}
