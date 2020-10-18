@@ -6,7 +6,7 @@ function Disclaimer() {
   return (
     <div>
       <p>Disclaimer: Carmes Inc is a fictional company. All products said to be by them and people said to be members do not exist in real life.</p>
-      <p>PreCure Selene, who is mentioned in several pages, was not created by me.</p>
+      <p>PreCure Selene and Pikachu, who are mentioned in several pages, were not created by me.</p>
     </div>
   );
 }
