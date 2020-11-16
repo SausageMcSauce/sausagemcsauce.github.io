@@ -1,3 +1,12 @@
 #newsnav > * {
   font-size: 20px;
 }
+
+.bulletin {
+  background-color: white;
+}
+
+.writtenby {
+  color: silver;
+  text-decoration: italic;
+}
