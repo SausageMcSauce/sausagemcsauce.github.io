@@ -29,7 +29,7 @@ function NewsNav() {
     <ul>
       <li><strong>Carmes News: </strong></li>
       <li><a href="/carmesinc/news">Home</a></li>
-      <li><a href="articles.html">Articles</a></li>
+      <li><a href="/carmesinc/news/articles.html">Articles</a></li>
     </ul>
   </nav>;
 }
