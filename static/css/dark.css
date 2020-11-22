@@ -1,0 +1,12 @@
+body { 
+  background-color: rgb(56, 5, 5);
+  color: gainsboro;
+}
+
+a:link {
+  color: lightblue;
+}
+
+a:visited {
+  color: rgb(215, 145, 255);
+}
