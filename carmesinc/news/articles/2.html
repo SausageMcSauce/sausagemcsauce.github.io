@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carmes News</title>
+    <link rel="stylesheet" href="/static/css/mainsite.css">
+    <link rel="stylesheet" href="/static/carmesinc/css/news.css">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="/static/js/components.js"></script>
+    <link rel="icon" href="../../carmes.ico">
+  </head>
+  <body>
+    <img src="/static/carmesinc/img/news/carmesnews.png">
+    <div id="newsnav"></div>
+    <h2>Disclaimer: Carmes News has been discontinued. This is the unfinished remnants of Issue 2.</h2>
+    <h2>Issue 2 remnants</h2>
+    <div class="bulletin">
+      <img src="/static/carmesinc/img/news/carmesnews.png">
+      <h2>ANIME-CON SUCCESSFUL</h2>
+      <p class="writtenby">by Carmes</p>
+      <p>Anime-Con, which was held a few days ago, has been extremely successful. A new product, Flea Extract, was announced and is now on sale today. Other popular events include the revealing of SuperPhone-tan and the announcement of several more anime-themed CarmesMoji.</p>
+      <h2>HUMAN-CONTROLLED WEATHER IS NO LONGER A DREAM!</h2>
+      <p class="writtenby">by Byron</p>
+      <p>The weather is quite a big problem. Sometimes, it looks sunny and you decided to go for a picnic. However, a few minutes after, it started to rain and broke your plans. Sometimes, it looks like it would rain, but it just contributed to your 41 day drought streak.
+Say goodbye to any of these issues! The Year Brothers are working on a cheap machine that controls the weather of your land. This machine was predicted to be first sold in January next year.
+A lot of countries seemed to be interested in this machine. "This can bring in a lot of profit to agriculture," Felicia Felica stated, "We're having problems of droughts and excessive rain."
+Joseph Legit, the president of Nowhereland, does not agree. "The weather is a gift of god. We should not change it."
+We would like to hear from you! Please write a letter to us about your opinions.</p>
+      <p><strong>THAT IS ALL, TUN E NEXT TIME FOR MORE NEWS</strong></p>
+      <p><strong>All the news has been 100% checked that it meets Dreem Lend government news standards</strong></p>
+    </div>
+    <hr>
+    <div id="logo"></div>
+    <div id="disclaimer"></div>
+    <script type="text/babel">
+    ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
+    ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
+    ReactDOM.render(<NewsNav />, document.getElementById("newsnav"));
+    ReactDOM.render(<UnderConstruction />, document.getElementById("uc"));
+    </script>
+  </body>
+</html>
