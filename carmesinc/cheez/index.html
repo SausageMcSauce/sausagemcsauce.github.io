@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheesy Movies Inc</title>
+    <link rel="stylesheet" href="/static/css/mainsite.css">
+    <link rel="stylesheet" href="/static/carmesinc/css/cheez.css">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="/static/js/components.js"></script>
+  </head>
+  <body>
+    <div id="logo"></div>
+    <h1>Cheesy Movies Inc</h1>
+    <p>Cheezy Movies Inc demerged from Carmes Inc. However, this page will be kept.</p>
+    <img src="/static/carmesinc/img/ads/cheez.png" width="1000px">
+    <p>The Carmes Inc website team has also been given permission to advertise the sequel to the Cheez Moveh.</p>
+    <img src="/static/carmesinc/img/ads/cheez2.png">
+    <hr>
+    <div id="disclaimer"></div>
+    <script type="text/babel">
+    ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
+    ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
+    </script>
+  </body>
+</html>
