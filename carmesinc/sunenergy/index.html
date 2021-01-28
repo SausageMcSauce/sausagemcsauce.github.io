@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sun Energy Companies</title>
+    <link rel="stylesheet" href="/static/css/mainsite.css">
+    <link rel="stylesheet" href="/static/carmesinc/css/sunenergy.css">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="/static/js/components.js"></script>
+    <link rel="icon" href="../carmes.ico.ico">
+  </head>
+  <body>
+    <div id="logo"></div>
+    <h2>Multicoloured Sun Energy Company</h2>
+    <p>Carmes Inc owns a group of stars within 20 light years of Popp Stah. They provide energy to inhabitants of nearbly planets. They promise not to make the stars accidentally explode.</p>
+    <hr>
+    <div id="disclaimer"></div>
+    <script type="text/babel">
+    ReactDOM.render(<CarmesLogo />, document.getElementById("logo"));
+    ReactDOM.render(<Disclaimer />, document.getElementById("disclaimer"));
+    </script>
+  </body>
+</html>
