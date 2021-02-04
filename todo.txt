@@ -1,2 +1,3 @@
 create dreemtronix superphone2 page
 make product image for flea extract
+Migrate entire site to use Jekyll
